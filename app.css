@@ -1,32 +1,46 @@
-#header{
-  display: inline-block;
-  text-align: left;
+header{
+  display: flex;
 }
 
 #nav-bar{
+  overflow: hidden;
+  background-color: rgb(214, 208, 208);
   position: fixed;
-  display: inline-block;
-  top: 5;
-  left: 0;
-  right: 0;
-  z-index: 999;
+  top: 0;
+  width: 100%;
+}
+
+.navLinks{
+  float: right;
+  text-align: center;
+}
+.navLinks a {
+  display: inline;
+  text-align: center;
+  align-items: bottom;
+  justify-content: space-around;
+  padding: 0em 1em;
 }
 
 #header-img {
   max-height: 4em;
   width: auto;
   border-radius: 40%;
+  vertical-align: middle;
+}
+.logoContainer{
+  display: flex;
+  align-items: left;
+  justify-content: left;
 }
 
 .logoText {
-  display: inline-block;
-  vertical-align: text-top;
+  vertical-align: middle;
 }
 
-.nav-link{
-  float: left;
+
+#form{
+  padding: 16px;
+  margin-top: 7em;
 }
 
-body {
-  display: inline-block;
-}

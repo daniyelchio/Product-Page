@@ -1,3 +1,32 @@
-header {
-    position: fixed;
-  }
+#header{
+  display: inline-block;
+  text-align: left;
+}
+
+#nav-bar{
+  position: fixed;
+  display: inline-block;
+  top: 5;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+#header-img {
+  max-height: 4em;
+  width: auto;
+  border-radius: 40%;
+}
+
+.logoText {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.nav-link{
+  float: left;
+}
+
+body {
+  display: inline-block;
+}

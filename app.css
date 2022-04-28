@@ -10,15 +10,7 @@ header{
   width: 100%;
 }
 
-.navLinks{
-  float: right;
-  text-align: center;
-}
-.navLinks a {
-  display: inline-flex;
 
-  padding: 0em 1em;
-}
 
 #header-img {
   max-height: 4em;
@@ -26,10 +18,22 @@ header{
   border-radius: 40%;
   vertical-align: middle;
 }
+
 .logoContainer{
   display: flex;
   align-items: left;
-  justify-content: left;
+}
+
+.navLink{
+  float: right;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 60em;
+}
+
+.nav-link{
+  padding: 1em;
 }
 
 .logoText {
@@ -38,7 +42,6 @@ header{
   vertical-align: middle;
   margin: 0.2em;
 }
-
 
 #form{
   padding: 16px;

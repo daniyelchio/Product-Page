@@ -4,13 +4,11 @@ header{
 
 #nav-bar{
   overflow: hidden;
-  background-color: rgb(214, 208, 208);
+  background-color: rgb(238, 238, 238);
   position: fixed;
   top: 0;
   width: 100%;
 }
-
-
 
 #header-img {
   max-height: 4em;
@@ -22,6 +20,7 @@ header{
 .logoContainer{
   display: flex;
   align-items: left;
+  width: 100%;
 }
 
 .navLink{
@@ -29,7 +28,7 @@ header{
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
-  margin-left: 60em;
+  margin-left: 57em;
 }
 
 .nav-link{
@@ -43,8 +42,45 @@ header{
   margin: 0.2em;
 }
 
-#form{
-  padding: 16px;
-  margin-top: 7em;
+.feature{
+  text-align: center;
 }
 
+.design{
+  text-align: center;
+}
+
+.pricing{
+  text-align: center;
+}
+
+#video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  text-align: center;
+}
+#features{
+  text-align: center;
+}
+
+body{
+  padding: 16px;
+  margin-top: 3em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+#pricing {
+  display: flex;
+
+}

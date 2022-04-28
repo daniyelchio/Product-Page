@@ -15,10 +15,8 @@ header{
   text-align: center;
 }
 .navLinks a {
-  display: inline;
-  text-align: center;
-  align-items: bottom;
-  justify-content: space-around;
+  display: inline-flex;
+
   padding: 0em 1em;
 }
 
@@ -35,7 +33,10 @@ header{
 }
 
 .logoText {
+  display: flex;
+  align-items: center;
   vertical-align: middle;
+  margin: 0.2em;
 }
 
 
